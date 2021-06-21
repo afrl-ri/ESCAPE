@@ -1,4 +1,3 @@
-# A collapsible section with markdown
 <details>
   <Overview>Click to expand!</Overview>
   
