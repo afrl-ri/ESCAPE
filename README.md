@@ -52,4 +52,7 @@ Some of the sesnors have several components to them resulting in collection of f
 | Sesmic       | CSV      |
 | Acoustic     | WAV      | 
 
+DataTypes 
+
+
 
