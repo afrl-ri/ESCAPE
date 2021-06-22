@@ -9,4 +9,4 @@ test run two or more targets would circle the site and then enter the Butler Bui
 depart at all. If the researchers can successfully develop suitable signatures for each target based on the multi modal data, this allows the targets to be accurately 
 identified as they exit.](#-overview)
 
-![Stockbridge Site in New York](https://github.com/afrl-ri/ESCAPE/blob/e8bf3d38429017dcbf9ae5bf08f51a1e75cf6a3b/images/Picture1.png)
+![Stockbridge Site in New York](afrl-ri/ESCAPE/images/Picture1.png)
