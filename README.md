@@ -38,7 +38,7 @@ This expirement used a variety of sesnors of different capbilities to form the E
 
 Each sesnor has a number associated with them, and their placement on the field varies with the different scenarios. A visual of sesnor location are provided in the sesnor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). 
 
-
+![](/images/sensor1layout.png)
 
 Some of the sesnors have several components to them resulting in collection of files for just one run. For example there are 16 wav files associated with the acoustic sesnor because there are 16 microphones. Likewise there were multipe camera for per EO sesnsor producing a variety of imagrey and video data. The sesnors collected seven main data types including, .tiff, .avi, .jpg, .bin, .yuv, .csv, .wav files.
 
