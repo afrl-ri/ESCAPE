@@ -20,3 +20,7 @@ Its important to note that in this experiment, there are two mobile forms of dat
 | ------------- | -------------------------------| ---------------------------------|
 | SUAS          |![](/images/SuasScen4%20(2).png)|![](/images/SuasScen4Run.png)     |
 | Vehicle       |![](/images/Scen1Veh.jpg)       |![](/images/Scen1VehRun%20(2).png)|
+
+
+### File Structure and Naming Convention
+
