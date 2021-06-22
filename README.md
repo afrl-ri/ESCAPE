@@ -23,6 +23,33 @@ Its important to note that in this experiment, there are two mobile forms of dat
 
 
 ### File Structure and Naming Conventions
-If intrested in the data set follow the instructions found in the data access read me ![](README_Data_Access.md). Each file follows a secific naming convention found, described in the sesnor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). Each file is formatted acording to d##s##r##yyyymmdd.*** standard, where the number following "d", "s", and "r" is the numerical value assocaited with the device(sensor), scenario. and run respectivley. The only exception are the .tiff files, these files dont follow a unqie format and thair device, sesnor, and run an be determined by the location on the file tree. 
+If intrested in the data set follow the instructions found in the data access read me ![](README_Data_Access.md). Each file follows a secific naming convention found, described in the sesnor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). Each file is formatted acording to d##s##r##yyyymmdd.*** standard, where the number following "d", "s", and "r" is the numerical value assocaited with the device(sensor), scenario. and run respectivley. The only exception are the .tiff files, these files dont follow a unique format and their device, sesnor, and run can be determined by the location on the file tree.  
+
+### Sesnsors 
+This expirement used a variety of sesnors of different capbilities to form the ESCAPE dataset. All of the sesnors where either mounted on one of the four towers, part of the ESCAPE paylod, or two of the group sesnors. The table below shows what sesnors are stored at each location.The escape payload contains and EO camera, IR camera, and P-RF reciever. 
+|   Location     | Sensors           | 
+| -------------  | ------------------| 
+| ESCAPE payload | EO, IR, P-RF      |
+| Tower 1        | EO, IR, P-RF      |
+| Tower 2        | Radar             |      
+| Tower 3        | P-RF              |
+| Tower 4        | EO                |
+| Groud          | aucostic & sesmic |
+
+Each sesnor has a number associated with them, and their placement on the field varies with the different scenarios. A visual of sesnor location are provided in the sesnor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). 
+
+
+
+Some of the sesnors have several components to them resulting in collection of files for just one run. For example there are 16 wav files associated with the acoustic sesnor because there are 16 microphones. Likewise there were multipe camera for per EO sesnsor producing a variety of imagrey and video data. The sesnors collected seven main data types including, .tiff, .avi, .jpg, .bin, .yuv, .csv, .wav files.
+
+|  Infromation | Datatype | 
+| -------------| ---------| 
+| EO           | TIFF     |
+| IR           | JPG/AVI  |
+| PRF          | binary   |      
+| Radar        | binary   |
+| EO           | YUV      |
+| Sesmic       | CSV      |
+| Acoustic     | WAV      | 
 
 
