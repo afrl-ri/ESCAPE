@@ -10,3 +10,5 @@ depart at all. If the researchers can successfully develop suitable signatures f
 identified as they exit.
 
 ![StockBrige Site](\images\Picture1.png)
+
+<img src = "images/Picture1.png">
