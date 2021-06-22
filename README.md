@@ -34,7 +34,7 @@ This experiment used various sensors of different capabilities to form the ESCAP
 | Tower 2        | Radar             |      
 | Tower 3        | P-RF              |
 | Tower 4        | EO                |
-| Groud          | aucostic & sesmic |
+| Groud          | acoustic & sesmic |
 
 Each sensor has a number associated with them, and its placement on the field varies with the different scenarios. A visual of sensor location are provided in the sensor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx).
 
