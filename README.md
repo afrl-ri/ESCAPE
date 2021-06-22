@@ -11,4 +11,4 @@ depart at all. If the researchers can successfully develop suitable signatures f
 identified as they exit.
 </h>
 
-<img src="../images/stockbrigesite.png">
+<img src="images/stockbrigesite.png">
