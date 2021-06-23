@@ -1,3 +1,12 @@
+-   [Overview](#overview)
+-   [Expirement Summary](#expirement-summary)
+-   [File Structure and Naming Conventions](#file-structure-and-naming-conventions)
+-   [Sensors](#sensors)
+-   [Data Types](#data-types)
+    -  [Video and Imagery](#video-and-imagery)
+    -  [Radar and Passive Radio Frequency](#radar-and-passive-radio-frequency)
+    -  [Acoustic](#acoustic)
+    -  [Seismic](#seismic)
 ### Overview
 
 the ESCAPE(Experiments, Scenarios, Concept of Operations, and Prototype Engineering) dataset, collected at the Information Directorate's Stockbridge Site. 
@@ -25,7 +34,7 @@ Its important to note that in this experiment, there are two mobile forms of dat
 ### File Structure and Naming Conventions
 If interested in the data set, follow the instructions found in the data access read me ![](README_Data_Access.md). Each file follows a specific naming convention found, described in the sensor, and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). Each file is formatted according to d##s##r##yyyymmdd.*** standard, where the number following "d," "s," and "r" is the numerical value associated with the device(sensor), scenario. and run respectively. The only exception is the .tiff files. These files don't follow a unique format, and the location on the file tree can determine their device, sensor, and run.  
 
-### Sesnsors 
+### Sensors 
 This experiment used various sensors of different capabilities to form the ESCAPE dataset. The sensors were either mounted on a tower, included in the ESCAPE payload, or were a gound sensor. The table below shows what sensors are stored at each location. The escape payload contains an EO camera, IR camera, and P-RF receiver. 
 |   Location     | Sensors           | 
 | -------------  | ------------------| 
@@ -38,7 +47,7 @@ This experiment used various sensors of different capabilities to form the ESCAP
 
 Each sensor has a number associated with them, and its placement on the field varies with the different scenarios. A visual of sensor location are provided in the sensor and naming convention powerpoint ![](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx).
 
-![](/images/sensor1layout.png)
+![](/images/sampleSensor.png)
 
 Some of the sensors have several components, resulting in collecting several files for just one run. For example, there are 16 wav files associated with the acoustic sensor because there are 16 microphones. Likewise, there were multiple cameras per EO sensor producing a variety of imagery and video data. The sensors collected seven main data types including, .tiff, .avi, .jpg, .bin, .yuv, .csv, .wav files.
 
@@ -52,7 +61,11 @@ Some of the sensors have several components, resulting in collecting several fil
 | Sesmic       | CSV      |
 | Acoustic     | WAV      | 
 
-DataTypes 
+### Data Type 
+#### Video and Imagery
+#### Radar and Passive Radio Frequency
+#### Acoustic
+#### Seismic
 
 
 
