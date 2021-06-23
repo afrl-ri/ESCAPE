@@ -20,6 +20,6 @@ plt.plot(audio[0:datZer.getnframes()])
 plt.ylabel("Amplitude")
 plt.xlabel("Time")
 # set the title  
-plt.title("Sample Wave, device %s%s" %(wavZer[1], wavZer[2]))
+plt.title("Sample Wave, Sensor %s%s" %(wavZer[1], wavZer[2]))
 # display the plot
 plt.show()
