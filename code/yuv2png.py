@@ -48,8 +48,8 @@ def yuv2bgr(filename, height, width, startfrm):
 
         # Since opencv cannot directly read YUV format files, it is necessary to convert the format
         bgr_img = cv2.cvtColor(img, cv2.COLOR_YUV2BGR_NV12)  # Pay attention to the storage format of YUV
-        cv2.imwrite('yuv2bgr/%d.png' %i, bgr_img) #'./yuv_images/yuv2bgr/%d.png'
-        if not cv2.imwrite('yuv2bgr/%d.png' %i, bgr_img):
+        cv2.imwrite('yuv2png/%d.png' %i, bgr_img) #'./yuv_images/yuv2bgr/%d.png'
+        if not cv2.imwrite('yuv2png/%d.png' %i, bgr_img):
              raise Exception("Could not write image")
         #print("\r Extract frame %d " % (i + 1))
         sys.stdout.write("\rExtract frame %d " % (i + 1))
