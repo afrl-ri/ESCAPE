@@ -58,11 +58,13 @@ Some of the sensors have several components, resulting in collecting several fil
 | PRF          | binary   |      
 | Radar        | binary   |
 | EO           | YUV      |
-| Sesmic       | CSV      |
+| Seismic      | CSV      |
 | Acoustic     | WAV      | 
 
 ### Data Types 
 #### Video and Imagery
+Extensive EO data was collected in the making of this dataset. There are three main file types associated with the EO data, .yuv. .avi, .tiff file. Both yuv and avi are videos however avi are standard red, gree, blue videos, and yuv are black and white. Unlike avi, [yuv](https://en.wikipedia.org/wiki/YUV) files contain chrominance and luminance infromation on each pixel instead a rgb value. Also included in the dataset are .tiff files which are simple, red green blue images. To make data analysis easier on the video files use the [code/yuv2png.py](code/yuv2png.py) and the [code/avi2png.py](code/avi2png.py) scripts which extract each frame, convert it to an rgb image if necessary, then save the frames as a png locally. In order to to be able to save an retrieve the frames create folders named yuv2png, avi2png your IDE. Using the [code/image.py](code/image.py) any two images wether it be a tiff, png or any other image file can be imported, read, plotted and determined if the two images are identical. 
+
 #### Radar and Passive Radio Frequency
 #### Acoustic
 #### Seismic
