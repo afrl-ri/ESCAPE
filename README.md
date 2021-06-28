@@ -37,7 +37,7 @@ Its important to note that in this experiment, there are two mobile forms of dat
 ### File Structure and Naming Conventions
 If interested in the data set, follow the instructions found in the data access read me [README_Data_Access.md](README_Data_Access.md). Each file follows a specific naming convention found, described in the sensor, and naming convention powerpoint [general/ESCAPE Sensor Layout Filename Conv 20201220.pptx](general/ESCAPE%20Sensor%20Layout%20Filename%20Conv%2020201220.pptx). Each file is formatted according to d##s##r##yyyymmdd.*** standard, where the number following "d," "s," and "r" is the numerical value associated with the device(sensor), scenario. and run respectively. The only exception is the .tiff files. These files don't follow a unique format, and the location on the file tree can determine their device, sensor, and run.  
 
-
+![](/images/ESCAPE_FileTree.png)
 
 ### Sensors 
 This experiment used various sensors of different capabilities to form the ESCAPE dataset. The sensors were either mounted on a tower, included in the ESCAPE payload, or were a gound sensor. The table below shows what sensors are stored at each location.  
