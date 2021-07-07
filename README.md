@@ -10,7 +10,7 @@
 - [Additional Information](#additional-information)
 
 ### Overview
-The ESCAPE(Experiments, Scenarios, Concept of Operations, and Prototype Engineering) dataset, collected at the Information Directorate's Stockbridge Site in 2018, is a multimodal dataset aimed to aide data fusion reserach **cite ESCAPE paper**.  The dataset is comprised of different "runs", where each run has a number of targets moving around the stockbridge site being observed by a variety of sensors.  In general, targets circle a metal building in the center of the Stockbridge site, dubbed the "Butler Building", and exit the building at varying times (or not at all).  The long term goal for this dataset is to investigate methods to create unique "signatures" for each of the targets captured in the dataset. These "signatures" are formed by fusing the heterogeneous data types together to understand the unique characteristics of each target, and can be tested by predicting which vehicle exits the Butler Building.
+The ESCAPE(Experiments, Scenarios, Concept of Operations, and Prototype Engineering) dataset, collected at the Information Directorate's Stockbridge Site in 2018, is a multimodal dataset aimed to aide data fusion reserach (Zulch et al., 2019).  The dataset is comprised of different "runs", where each run has a number of targets moving around the stockbridge site being observed by a variety of sensors.  In general, targets circle a metal building in the center of the Stockbridge site, dubbed the "Butler Building", and exit the building at varying times (or not at all).  The long term goal for this dataset is to investigate methods to create unique "signatures" for each of the targets captured in the dataset. These "signatures" are formed by fusing the heterogeneous data types together to understand the unique characteristics of each target, and can be tested by predicting which vehicle exits the Butler Building.
 
 **Collection Instruments:**
 - Two SUAS
@@ -95,6 +95,8 @@ The [seismic](https://en.wikipedia.org/wiki/Reflection_seismology) data, a measu
 ### Additional Information
 The researchers who conducted ESCAPE data collecction publised their work in the article [ESCAPE Data Collection for Multi-Modal Data Fusion
 Research](https://www.researchgate.net/profile/Erik-Blasch/publication/333922294_ESCAPE_Data_Collection_for_Multi-Modal_Data_Fusion_Research/links/5f1b0634299bf1720d6050b6/ESCAPE-Data-Collection-for-Multi-Modal-Data-Fusion-Research.pdf). This extensivley covers the methodolgy, science, and future goals for the ESCAPE data. For a shorter and conciese overview of the porject refer to the [ESCAPE_overview 20190416.pptx](general/ESCAPE_overview%2020190416.pptx) powerpoint. 
+
+Zulch, P., Distasio, M., Cushman, T., Wilson, B., Hart, B., & Blasch, E. (2019). ESCAPE Data Collection for Multi-Modal Data Fusion Research (p. 10).   https://doi.org/10.1109/AERO.2019.8742124
 
 
 
